@@ -1,4 +1,4 @@
-{% set version = '1.1.1' %}
+{% set version = "1.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rhub_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rhub/rhub_{{ version }}.tar.gz
-  sha256: a663d59dc3f69214750263117f5d78740218be5af2eaaa23d4ae206f33bc6415
+  sha256: 95275b95fb9e1ed76f2210f03c251e5f576155e5c018f43274877a8c5a28a78a
 
 build:
-  merge_build_host: True  # [win]
-  number: 1
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -76,12 +76,10 @@ test:
 about:
   home: https://github.com/r-hub/rhub, https://r-hub.github.io/rhub/
   license: MIT
-  summary: Run 'R CMD check' on any of the 'R-hub' (<https://builder.r-hub.io/>) architectures,
-    from the command line. The current architectures include 'Windows', 'macOS', 'Solaris'
-    and various 'Linux' distributions.
+  summary: Run 'R CMD check' on any of the 'R-hub' (<https://builder.r-hub.io/>) architectures, from the command line. The current architectures include 'Windows', 'macOS', 'Solaris' and various 'Linux' distributions.
   license_family: MIT
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
     - LICENSE
 
 extra:
