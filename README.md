@@ -1,11 +1,11 @@
-About r-rhub
-============
+About r-rhub-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rhub-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/r-hub/rhub, https://r-hub.github.io/rhub/
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rhub-feedstock/blob/main/LICENSE.txt)
 
 Summary: Run 'R CMD check' on any of the 'R-hub' (<https://builder.r-hub.io/>) architectures, from the command line. The current architectures include 'Windows', 'macOS', 'Solaris' and various 'Linux' distributions.
 
