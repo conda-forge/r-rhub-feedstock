@@ -7,7 +7,7 @@ Home: https://github.com/r-hub/rhub, https://r-hub.github.io/rhub/
 
 Package license: MIT
 
-Summary: Run 'R CMD check' on any of the 'R-hub' (<https://builder.r-hub.io/>) architectures, from the command line. The current architectures include 'Windows', 'macOS', 'Solaris' and various 'Linux' distributions.
+Summary: R-hub v2 uses GitHub Actions to run 'R CMD check' and similar package checks. The 'rhub' package helps you set up R-hub v2 for your R package, and start running checks.
 
 Current build status
 ====================
@@ -95,7 +95,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
