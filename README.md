@@ -7,7 +7,7 @@ Home: https://github.com/r-hub/rhub, https://r-hub.github.io/rhub/
 
 Package license: MIT
 
-Summary: Run 'R CMD check' on any of the 'R-hub' (<https://builder.r-hub.io/>) architectures, from the command line. The current architectures include 'Windows', 'macOS', 'Solaris' and various 'Linux' distributions.
+Summary: R-hub v2 uses GitHub Actions to run 'R CMD check' and similar package checks. The 'rhub' package helps you set up R-hub v2 for your R package, and start running checks.
 
 Current build status
 ====================
